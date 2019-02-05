@@ -1,0 +1,13 @@
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\bin\Release\Swimmers.exe.config
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\bin\Release\Swimmers.exe
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\bin\Release\Swimmers.pdb
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\MainWindow.g.cs
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\App.g.cs
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers_MarkupCompile.cache
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers_MarkupCompile.lref
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\MainWindow.baml
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers.g.resources
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers.Properties.Resources.resources
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers.csproj.GenerateResource.Cache
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers.exe
+c:\users\sami\documents\visual studio 2015\Projects\Swimmers\Swimmers\obj\Release\Swimmers.pdb

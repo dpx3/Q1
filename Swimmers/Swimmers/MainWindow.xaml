@@ -1,0 +1,38 @@
+﻿<Window x:Class="Swimmers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Swimmers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="581" Width="1065">
+    <Grid Margin="-2,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="545*"/>
+            <ColumnDefinition Width="357*"/>
+            <ColumnDefinition Width="155*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="501" Margin="237,39,0,0" VerticalAlignment="Top" Width="265" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="407" Margin="10,133,0,-12" VerticalAlignment="Top" Width="767" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="200" DisplayMemberBinding="{Binding name}" />
+                    <GridViewColumn Header="Sex" Width="200" DisplayMemberBinding="{Binding sex}"/>
+                    <GridViewColumn Header="Age" Width="100" DisplayMemberBinding="{Binding age}"/>
+                    <GridViewColumn Header="Best Time" Width="200" DisplayMemberBinding="{Binding DisplayTime}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ComboBox x:Name="sortBy" HorizontalAlignment="Left" Margin="92,39,0,0" VerticalAlignment="Top" Width="140" Height="26" Grid.Column="1" SelectionChanged="sortByChanged"/>
+        <Label x:Name="label" Content="Sort By" HorizontalAlignment="Left" Margin="529,39,0,0" VerticalAlignment="Top" Width="103" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="Age Group" HorizontalAlignment="Left" Margin="271,39,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="ageGroup" HorizontalAlignment="Left" Margin="392,39,0,0" VerticalAlignment="Top" Width="132" Height="26" ItemsSource="{Binding AgeGroup}" SelectionChanged="ageGroupChanged"/>
+        <Label x:Name="label2" Content="Swimmers" HorizontalAlignment="Left" Margin="237,8,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="146" Grid.Column="1"/>
+        <Label x:Name="label1_Copy" Content="Season" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="seasons" HorizontalAlignment="Left" Margin="131,39,0,0" VerticalAlignment="Top" Width="135" Height="26" SelectionChanged="seasonChanged"/>
+        <Label x:Name="label1_Copy1" Content="Stroke" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="stroke" HorizontalAlignment="Left" Margin="131,84,0,0" VerticalAlignment="Top" Width="135" Height="26" SelectionChanged="strokeChanged"/>
+        <Label x:Name="label1_Copy2" Content="Distance" HorizontalAlignment="Left" Margin="271,84,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="distance" HorizontalAlignment="Left" Margin="392,84,0,0" VerticalAlignment="Top" Width="132" Height="26" SelectionChanged="distanceChanged"/>
+    </Grid>
+</Window>
